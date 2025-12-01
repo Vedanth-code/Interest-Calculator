@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Intrest Calculator</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <h1> Intrest Calculator</h1>
+
+        <div class="main-cont">
+            <form onsubmit="formsubmit(event)">
+                <fieldset>
+                    <legend>Intrest</legend>
+                    <label for="amt"> Principle amount</label>
+                    <input id="amt" type="number" placeholder="Please Enter Principle amount" required>
+
+                    <label for="roi">Rate of Intrest</label>
+                    <input type="number" id="roi" placeholder="Enter the rate of Intrest" required>
+
+                    <label for="yrs">Number of years</label>
+                    <input type="number" id="yrs" placeholder="Enter number of years" required>
+
+                    <div class="radiobtn">
+                        <input type="radio" id="si" value="SI Intrest" name="toggle" required>
+                        <label for="si">SI Intrest</label>
+                    </div>
+
+                    <div class="radiobtn">
+                        <input type="radio" id="cmpd" value="Compound Intrest" name="toggle" required>
+                        <label for="cmpd">Compound Intrest </label>
+                    </div>
+
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+        </div>
+        <div id="resultBlock"></div>
+
+
+
+    <script src="index.js" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+h1 {
+    text-align: center;
+    color: aliceblue;
+}
+
+
+
+.main-cont, #resultBlock {
+    width: 30%;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+fieldset {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+}
+
+body {
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.res {
+    display: none;
+}
+
+#resultBlock {
+    background-color: aliceblue;
+    width: 400px;
+    height: 400px;
+
+    margin-top: 50px;
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50px;
+}
